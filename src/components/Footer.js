@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
+  AiOutlineMail,
+  AiOutlineWhatsApp,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -13,37 +13,38 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        <Col md="4" className="footer-copyright">
           <h3>Designed and Developed by Zarrar Palekar</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} PZJ</h3>
+        <Col md="4" className="footer-copyright">
+          <h3>Copyright © {year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="mailto:mzeasyleads@gmail.com"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <AiOutlineMail />
               </a>
             </li>
+
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://www.instagram.com/mz_easy_leads/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiFillInstagram />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/mz-easy-leads-18075421b/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,12 +54,12 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                href="https://api.whatsapp.com/send?phone=+919987448073&text=Hi%20Maryam%21%20I%20came%20here%20from%20your%20portfolio%20website."
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <AiOutlineWhatsApp />
               </a>
             </li>
           </ul>

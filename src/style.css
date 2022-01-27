@@ -274,7 +274,7 @@ html {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 50px !important;
 }
 
 .main-name {
@@ -303,14 +303,24 @@ html {
 }
 
 .myAvtar {
-  justify-content: center !important;
-  padding-top: 9em !important;
+  justify-content: center;
+  padding-top: 1.2em;
+  background-color: white;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
   .myAvtar {
-    padding-top: 2em !important;
-    padding-bottom: 2em !important;
+    padding-top: 1.2em !important;
+    padding-bottom: 1.2em !important;
+    margin-bottom: 7em !important;
+    margin-top: 7em !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .myAvtar {
+    padding-top: 1.2em !important;
+    padding-bottom: 1.2em !important;
   }
 }
 
@@ -389,6 +399,7 @@ html {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+  margin-top: 10px !important;
 }
 
 .icon-colour {
@@ -401,11 +412,12 @@ html {
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
-  padding-top: 10px !important;
+  padding-top: 8px !important;
   padding-bottom: 8px !important ;
 }
-.footer-copywright {
+.footer-copyright {
   text-align: center !important;
+  margin-top: 10px !important;
 }
 
 .footer-body {
