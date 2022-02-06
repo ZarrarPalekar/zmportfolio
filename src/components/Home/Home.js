@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
 
 function Home() {
   return (
@@ -24,14 +23,15 @@ function Home() {
                 </h2>
               </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> ZUVAIRIYA MARYAM</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
+              <h2 className="heading-name">
+                We help{" "}
+                <strong className="main-name">
+                  {" "}
+                  Real Estate professionals
+                </strong>{" "}
+                save time and close more deals with end-to-end lead generation,
+                follow up, and appointment booking.
+              </h2>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
